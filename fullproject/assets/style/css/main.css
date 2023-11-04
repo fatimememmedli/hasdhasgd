@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Gabarito:wght@400;500;600;700;800;900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@400;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.cards-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  padding: 10px 0;
+  background: rgb(56, 247, 255);
+  background: radial-gradient(circle, rgb(56, 247, 255) 0%, rgb(123, 132, 210) 100%);
+}
+nav .container {
+  width: 80%;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+nav .container .logo {
+  width: 200px;
+  height: 80px;
+  overflow: hidden;
+}
+nav .container .logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+nav .container .links a {
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.cards-container .cards .col-3 .card .card-image {
+  min-height: 200px;
+  max-height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+.cards-container .cards .col-3 .card .card-image img {
+  width: 100%;
+  min-height: 200px;
+  max-height: 200px;
+  object-fit: cover;
+  transition: 0.2s linear;
+}
+
+.cards-container .cards .col-3 .card-main:hover .card-image img {
+  transform: scale(1.1);
+}
+
+.detail-image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.detail-image img {
+  width: 100%;
+  height: 100%;
+  transition: 0.2s linear;
+  object-fit: cover;
+}
+
+.detail-box .card:hover .detail-image img {
+  transform: scale(1.1);
+}
+
+.fav-image {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.fav-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ing-item {
+  padding: 10px;
+  border-bottom: 1px solid #e2e2e1;
+  border-radius: 5px;
+}
+
+.ingredients {
+  border-top: 1px solid #e2e2e1;
+  border-left: 1px solid #e2e2e1;
+  border-right: 1px solid #e2e2e1;
+  border-radius: 5px;
+}
+
+.login-wrapper {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.login-card {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgb(114, 108, 213);
+  background: linear-gradient(90deg, rgb(114, 108, 213) 0%, rgb(72, 21, 182) 39%, rgb(162, 0, 255) 100%);
+}
+
+.users-details {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,169 @@
+{
+  "singers": [
+    {
+      "id": 1,
+      "name": "Adele",
+      "imageLink": "https://d.ibtimes.com/en/full/2230645/adele.jpg",
+      "age": 33,
+      "nationality": "British",
+      "genre": "Pop"
+    },
+    {
+      "id": 2,
+      "name": "Beyonce",
+      "imageLink": "https://v1.popcornnews.ru/k2/news/1200/upload/j5Otwk.jpg",
+      "age": 40,
+      "nationality": "American",
+      "genre": "R&B"
+    },
+    {
+      "id": 3,
+      "name": "Ed Sheeran",
+      "imageLink": "https://highandlow.ru/content/images/2021/10/66733.jpg",
+      "age": 31,
+      "nationality": "British",
+      "genre": "Pop"
+    },
+    {
+      "id": 4,
+      "name": "The Weeknd",
+      "imageLink": "https://api.eric.s3storage.ru/super-static/prod/6124ad07f3501119c1039db3-1900x.jpeg",
+      "age": 30,
+      "nationality": "Canadian",
+      "genre": "R&B"
+    },
+    {
+      "id": 5,
+      "name": "Billie Eilish",
+      "imageLink": "https://w.forfun.com/fetch/df/dff189023b895076e17f1e36b285a2e5.jpeg",
+      "age": 21,
+      "nationality": "American",
+      "genre": "Pop"
+    },
+    {
+      "id": 6,
+      "name": "Maneskin",
+      "imageLink": "https://www.aceshowbiz.com/display/images/photo/2022/12/31/00198208.jpg",
+      "age": "The group was created 6 year ago",
+      "nationality": "Italian",
+      "genre": "Rock"
+    },
+    {
+      "id": 7,
+      "name": "Ariana Grande",
+      "imageLink": "https://sevastopolfm.ru/wp-content/uploads/D2tsJbxXQAEEZXv.jpg",
+      "age": 0,
+      "nationality": "American",
+      "genre": "Pop"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "fatime24",
+      "password": "Admin123",
+      "email": "hello@email.com",
+      "balance": 80,
+      "orders": [
+        {
+          "id": "c468f58b1169a",
+          "orderDate": "2023-11-04T13:34:45.910Z",
+          "totalPrice": 18
+        },
+        {
+          "id": "83d5d90a4aa23",
+          "orderDate": "2023-11-04T13:41:36.010Z",
+          "totalPrice": 47
+        },
+        {
+          "id": "5ab39a8b34318",
+          "orderDate": "2023-11-04T13:42:23.678Z",
+          "totalPrice": 0
+        },
+        {
+          "id": "9e8e0e1f3b738",
+          "orderDate": "2023-11-04T13:48:46.160Z",
+          "totalPrice": 0
+        },
+        {
+          "id": "43d8f430b7e77",
+          "orderDate": "2023-11-04T14:19:56.977Z",
+          "totalPrice": 0
+        },
+        {
+          "id": "f3c1ce3349124",
+          "orderDate": "2023-11-04T14:21:06.211Z",
+          "totalPrice": 29
+        },
+        {
+          "id": "fcecec1ee2b53",
+          "orderDate": "2023-11-04T14:23:00.907Z",
+          "totalPrice": 31
+        }
+      ]
+    },
+    {
+      "email": "huneb@mailinator.com",
+      "username": "hello12",
+      "password": "admin123",
+      "balance": 500,
+      "orders": [],
+      "id": 2
+    }
+  ],
+  "meals": [
+    {
+      "id": 1,
+      "name": "Sushi",
+      "imageLink": "https://brjunetka.ru/wp-content/uploads/2021/07/sushi-2853382-1280.jpg",
+      "price": 16,
+      "ingredients": [
+        "Rice",
+        "Fish",
+        "Seaweed",
+        "Soy sauce",
+        "Wasabi",
+        "Pickled Ginger"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Spaghetti Carbonara",
+      "imageLink": "https://cdn.gutekueche.de/upload/rezept/1777/1600x900_spaghetti-carbonara.jpg",
+      "price": 13,
+      "ingredients": [
+        "Pasta",
+        "Pancetta or Guanciale",
+        "Eggs",
+        "Parmesan Cheese",
+        "Black Pepper"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Taco",
+      "imageLink": "https://content.skyscnr.com/m/2dcd7d0e6f086057/original/GettyImages-186142785.jpg?resize=1800px:1800px&quality=100",
+      "price": 9,
+      "ingredients": [
+        "Torcilla",
+        "Ground Beef or Chicken",
+        "Lettuce",
+        "Tomato",
+        "Cheese"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Hamburger",
+      "imageLink": "https://main-cdn.sbermegamarket.ru/hlr-system/-16/017/136/771/181/559/100029622423b0.jpg",
+      "price": 10,
+      "ingredients": [
+        "Ground meat",
+        "Cheese",
+        "Bacon",
+        "Mustard",
+        "Special sauce"
+      ]
+    }
+  ]
+}
